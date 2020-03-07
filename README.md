@@ -1,11 +1,17 @@
 # napsterAPI
 
-API to access Napster using Python
+API to fetch data from Napster music streaming (by Rhapsody International Inc.) using Python
 
-## Requirements
+## Description
 
-pandas
-requests
+It's only a simple Jupyter Notebook containing an implementation to access the API and retrieve and process some information.
+The analysis was made for my personal use, as some tracks were marked as "not streamable" and therefore vanished from my Favorites.
+
+##  Requirements
+
+[pandas](https://pandas.pydata.org/)
+
+[requests](https://requests.readthedocs.io/en/master/)
 
 ```
 pip install -r requirements.txt
